@@ -24,7 +24,7 @@
 
 }
 
-main {
+main , footer{
     max-width: 1440px;
     margin: 70px auto;
 }
@@ -131,10 +131,12 @@ nav li a {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
-.feature-img{
+
+.feature-img {
     height: 90%;
     margin-left: 90px;
 }
+
 .ten-years-badgs {
     border-radius: 8px;
     background: #FF900E;
@@ -144,13 +146,15 @@ nav li a {
     padding: 40px;
     position: relative;
     bottom: 100px;
-   
+
 }
-.ten-years-badgs h3{
+
+.ten-years-badgs h3 {
     font-size: 4rem;
     margin: 0;
 }
-.ten-years-badgs  p{
+
+.ten-years-badgs p {
     font-size: 1.5rem;
 }
 
@@ -203,4 +207,18 @@ nav li a {
 
 .sponsor-img img {
     width: 156px;
+}
+
+footer {
+    text-align: center;
+    border-radius: 8px;
+    background: #FFF4E7;
+    height: 100px;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+
+}
+footer p{
+    margin-top: 40px;
 }
